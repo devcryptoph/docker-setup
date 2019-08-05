@@ -1,8 +1,8 @@
 {
     "tls": true,
     "tlscacert": "/etc/docker/certs/ca.pem",
-    "tlscert": "/etc/dockercerts/server-cert.pem",
-    "tlskey": "/etc/dockercerts/server-key.pem",
+    "tlscert": "/etc/docker/certs/server-cert.pem",
+    "tlskey": "/etc/docker/certs/server-key.pem",
     "tlsverify": false,
     "storage-driver": "overlay2",
     "log-driver": "json-file",
