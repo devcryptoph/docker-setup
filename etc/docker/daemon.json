@@ -1,0 +1,12 @@
+{
+    "tls": true,
+    "tlscacert": "/local/certs/ca.pem",
+    "tlscert": "/local/certs/server-cert.pem",
+    "tlskey": "/local/certs/server-key.pem",
+    "tlsverify": false,
+    "storage-driver": "overlay2",
+    "log-driver": "json-file",
+    "log-opts": {
+        "max-size": "100m"
+    }
+}
